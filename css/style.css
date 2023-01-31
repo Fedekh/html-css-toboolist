@@ -91,7 +91,42 @@ button{
   width: 70%;
   height: 500px;
   margin: auto;
-  background-color: brown;
+  background-color: white;
+}
+
+/* SYMBOL BEFORE LIST NAME */
+.symbol{
+  display: inline-block;
+  font-size: .5em;
+  margin-right: 2px;
+  vertical-align: middle;
+}
+
+/* FIRST UNORDER LIST */
+ul{
+  margin-left: 30px;
+  list-style: none;
 }
 
 
+/* SYMBOL OF CHECK */
+.check {  
+  color: green;
+  display: inline-block;    
+  border: 1px solid green;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+}
+
+/* BUTTON-LIST */
+.button-list {
+  width: 80px;
+  height: 25px;
+  background-color: rgb(7, 148, 241);
+  color: white;
+  border-radius: 3em / 4em;
+  border: none;
+}
