@@ -1,0 +1,12 @@
+ /* RESET LAYOUT BODY */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;   
+}
+
+/* IMPOST FONT BY GOOGLEFONTS */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
