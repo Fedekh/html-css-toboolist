@@ -86,12 +86,13 @@ button{
 
 
 /* SECTION LIST */
-.list {
+.mainlist {
   margin-top: 3px;
   width: 70%;
-  height: 500px;
+  height: 550px;
   margin: auto;
   background-color: white;
+  
 }
 
 /* SYMBOL BEFORE LIST NAME */
@@ -121,12 +122,99 @@ ul{
   text-align: center;
 }
 
-/* BUTTON-LIST */
-.button-list {
+.cross {  
+  color: red;
+  display: inline-block;    
+  border: 1px solid red;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+}
+
+/* BUTTON-LIST-BLU */
+.button-listblu {
   width: 80px;
   height: 25px;
   background-color: rgb(7, 148, 241);
   color: white;
   border-radius: 3em / 4em;
   border: none;
+}
+
+/* BUTTON-LIST-VIOLET */
+.button-listviolet {
+  width: 80px;
+  height: 25px;
+  background-color: rgb(136, 7, 241);
+  color: white;
+  border-radius: 3em / 4em;
+  border: none;
+}
+
+/* BUTTON-LIST-GREEN */
+.button-listgreen {
+  width: 80px;
+  height: 25px;
+  background-color: green;
+  color: white;
+  border-radius: 3em / 4em;
+  border: none;
+}
+
+/* BUTTON-LIST-Orange */
+.button-listorange {
+  width: 80px;
+  height: 25px;
+  background-color: orangered;
+  color: white;
+  border-radius: 3em / 4em;
+  border: none;
+}
+
+/* BUTTON-LIST-PINK */
+.button-listpink {
+  width: 80px;
+  height: 25px;
+  background-color: pink;
+  color: white;
+  border-radius: 3em / 4em;
+  border: none;
+}
+
+/* BUTTON-LIST-LIME */
+.button-listlime {
+  width: 80px;
+  height: 25px;
+  background-color: lime;
+  color: white;
+  border-radius: 3em / 4em;
+  border: none;
+}
+
+
+.firstlist, .secondlist, .thirdlist {
+  margin-bottom: 30px;
+  
+}
+
+.secondlist, .thirdlist{
+  margin-top: 20px;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+li{
+  margin-bottom: 10px;
+}
+
+.mainlist{
+  padding-left: 30px;
+}
+
+.buttons{
+  padding-left: 20px;
 }
