@@ -35,3 +35,63 @@ h1{
   font-size: 2.5rem;
   vertical-align: middle;
 }
+
+
+/* MAIN SECTION
+main {
+  height: 800px;
+  background-color: blue;
+  width: 70%;
+  margin: 100px auto;
+  padding: 20px 60px 50px 60px;
+} */
+
+/* SECTION BUTTON KEYS */
+.keys {
+  height: 50px;
+  width: 70%;
+  background-color: white;
+  margin: 40px auto 3px;
+  padding: 0;
+  
+}
+
+/* THE 2 BUTTON */
+button{
+  margin: 2px;
+  padding: 5px;
+  border-radius: 10%;
+  
+}
+ 
+/* CONTENITOR OF BUTTONS, SEEMS MORE SIMPLY TO GIVE STYLE */
+.buttons{
+  margin-left: 10px;
+  line-height: 50px;
+}
+
+/* ASS TASK */
+.task {
+  color: white;
+  background-color: rgb(7, 148, 241);
+  border: none;
+}
+
+/* ASS SECTION */
+.section-add{
+  color: gray;
+  border: gray;
+}
+
+
+
+/* SECTION LIST */
+.list {
+  margin-top: 3px;
+  width: 70%;
+  height: 500px;
+  margin: auto;
+  background-color: brown;
+}
+
+
